@@ -18,3 +18,7 @@ When -shareArchive is enabled, GW2 will not be able to modify any files. In orde
 
 ### Preview
 ![Preview](https://github.com/Healix/Gw2Launcher/wiki/images/preview.jpg)
+
+### Contributing
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Healix/Gw2Launcher)
