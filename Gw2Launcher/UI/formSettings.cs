@@ -4195,14 +4195,6 @@ namespace Gw2Launcher.UI
             panelStyleLoginRewardIconsContainer.Visible = checkStyleShowLoginRewardIcon.Checked;
         }
 
-        private void labelGw1ProcessAffinityShowAccounts_Click(object sender, EventArgs e)
-        {
-            using (var f = new formAccountAffinity())
-            {
-                f.ShowDialog(this);
-            }
-        }
-
         private void InitializeAffinityAccountsPanel(StackPanel panel, IEnumerable<Settings.IAccount> accounts)
         {
             var p = new AffinityAccountsPanel(accounts)
