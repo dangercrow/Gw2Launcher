@@ -3,6 +3,7 @@ using System.Text;
 using System.Windows.Forms;
 using System.Threading.Tasks;
 using System.Drawing;
+using Timer = System.Windows.Forms.Timer;
 
 namespace Gw2Launcher.UI.Controls
 {
