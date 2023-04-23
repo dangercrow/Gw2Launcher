@@ -5,9 +5,7 @@ tasks:
     init: |
       dotnet dev-certs https 
       dotnet restore
-      dotnet build
-  - name: Run
-    command: dotnet run
+      : dotnet build
 
 github:
   prebuilds:
