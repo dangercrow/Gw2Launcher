@@ -6,6 +6,8 @@
     <!-- This should be enabled, but grandfathering in the existing issues -->
     <Nullable>disable</Nullable>
     <LangVersion>10.0</LangVersion>
+	<Platforms>x86</Platforms>
+
   </PropertyGroup>
 
   <ItemGroup>
