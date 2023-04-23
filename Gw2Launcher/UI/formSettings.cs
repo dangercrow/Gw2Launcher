@@ -323,13 +323,11 @@ namespace Gw2Launcher.UI
             if (Settings.GuildWars2.Path.HasValue)
             {
                 textGw2Path.Text = Settings.GuildWars2.Path.Value;
-                textGw2Path.Select(textGw2Path.TextLength, 0);
             }
 
             if (Settings.GuildWars2.PathSteam.HasValue)
             {
                 textGw2PathSteam.Text = Settings.GuildWars2.PathSteam.Value;
-                textGw2PathSteam.Select(textGw2PathSteam.TextLength, 0);
                 checkGw2PathSteam.Checked = true;
             }
 
@@ -1035,6 +1033,13 @@ namespace Gw2Launcher.UI
             if (Settings.Tweaks.DisableMumbleLinkDailyLogin.Value)
             {
                 checkTweakDailyLogin.Checked = false;
+            }
+
+            if (Settings.GuildWars2.LocalizeAccountExecutionSelection.HasValue)
+            {
+                var b = Settings.GuildWars2.LocalizeAccountExecutionSelection.Value == Settings.LocalizeAccountExecutionSelectionOptions.Include;
+                radioLocalizedExecutionAccountsInclude.Checked = b;
+                radioLocalizedExecutionAccountsExclude.Checked = !b;
             }
 
 
